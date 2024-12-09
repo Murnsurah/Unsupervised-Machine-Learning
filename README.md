@@ -12,22 +12,26 @@ The dataset is used to identify customer segments based on their income and spen
 5. Spending Score
 
 
-        Objectives
+   #### Objectives
 The primary goal of this project is to:
 1. Segment customers into distinct groups using clustering techniques.
 2. Analyze and visualize the results to derive meaningful business insights.
-         Techniques and Methods
+
+   #### Techniques and Methods
 1. Clustering Algorithms
 2. K-Means Clustering
 3. Hierarchical Clustering
-          Optimization Techniques
+
+   #### Optimization Techniques
 - Elbow Curve: To determine the optimal number of clusters for K-Means.
 - Silhouette Score: To validate cluster quality.
 - Dendrogram Threshold: To identify clusters in Hierarchical Clustering.
-          Feature Scaling
+
+  #### Feature Scaling
 - StandardScaler: Used for K-Means Clustering to standardize features.
 - MinMaxScaler: Used for Hierarchical Clustering to normalize features.
-          Visualizations
+
+  #### Visualizations
 This is used to effectively interpret the clustering outcomes:
 - Bar Charts and Pie Charts: To explore dataset distributions.
 - Scatter Plots: To visualize clusters.
